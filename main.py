@@ -171,3 +171,13 @@ while x is True:
         print(f"Milk: {milk_value}ml")
         print(f"Coffee: {coffee_value}g")
         print(f"Money: ${money}")
+
+    elif answer == "off":
+        print(o)
+        print("The Coffee Machine is off")
+        break
+
+    else:
+        print(o)
+        print("Invalid input, please try again")
+
